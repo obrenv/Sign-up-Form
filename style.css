@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    display:flex;
+    margin:0;
+}
+h1{
+    font-family: Water Brush;
+    color: rgb(255, 255, 255);
+  margin-top: 20%;
+}
+
+.left-side{
+    background-image: url(IMG/road-ahead-UroD-ozkkvo-unsplash.jpg);
+    background-size: cover;
+    display:flex;
+    height: 100vh;
+    width: 70vh;
+    flex-basis: 70%;
+    align-items: center;
+}
+
+.logo {
+  
+max-height:20rem;
+max-width:20rem;
+}
+
+.brand{
+    background-color: rgba(3, 2, 0, 0.644);
+    display:flex;
+    width:100%;
+    height:30%;
+}
+
+
+
+.right-side{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+.top{
+    flex-basis:33vh;
+}
+
+.mid{
+    background-color: rgb(46, 44, 44);
+    flex-basis:33vh;
+}
+
+.top p{
+    font-family: Roboto;
+    margin:5rem;
+    color:white;
+    font-size: large;
+    font-weight: bold;
+}
